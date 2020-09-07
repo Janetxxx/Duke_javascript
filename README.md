@@ -33,16 +33,18 @@
 
 
 ### code
-  for (var pixel of fgImage.values()){
-    if (pixel.getGreen() > pixel.getRed() + pixel.getBlue()){
-      var x = pixel.getX();
-      var y = pixel.getY();
-      var bgPixel = bgImage.getpixel(x, y);
-      output.setPixel(x, y, bgPixel);
+    for (var pixel of fgImage.values()){
+      if (pixel.getGreen() > pixel.getRed() + pixel.getBlue()){
+        var x = pixel.getX();
+        var y = pixel.getY();
+        var bgPixel = bgImage.getpixel(x, y);
+        output.setPixel(x, y, bgPixel);
+      }
+      else {
+        output.setPixel(pixel.getX(), pixel.getY(), pixel);
+      }
     }
-    else {
-      output.setPixel(pixel.getX(), pixel.getY(), pixel);
-    }
-  }
+    
+ for White pixel: R = 255, G = 255, B = 255.
   
   
