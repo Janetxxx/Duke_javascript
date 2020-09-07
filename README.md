@@ -87,3 +87,4 @@ upper left conor is (0, 0)
   
 ## lesson_6
   ### Using HTML5 Canvas to draw graphics
+  website source: https://www.w3schools.com/html/html5_canvas.asp
