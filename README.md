@@ -61,13 +61,21 @@
     
     Create an HTML Button
     e.g. 
+    in HTML:
     <input type = "button" value = "change" onclick = "alert('clicked button')" >
     
     or
     
+    in HTML:
     <input type = "button" value = "change" onclick = "dochange()" >
+    in JS (call JS function):
     function dochange(){
       alert('clicked button');
     }
     
     onclick attribute: triggers event handler on click, will pop up an alert message 'clicked button'.
+
+
+
+  ### Changing Pages Interactively
+    
