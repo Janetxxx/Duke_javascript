@@ -82,3 +82,6 @@
   
 ## lesson_5
   ### change text name
+  
+## lesson_6
+  ### Using HTML5 Canvas to draw graphics
