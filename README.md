@@ -10,3 +10,9 @@
   Methods: invoked on objects
   Functions: not invoked on objects
   
+  function 
+  var
+  
+  "a" + "b" = "ab" 
+  
+  Writing code in Duke websit: https://www.dukelearntoprogram.com/course1/example/index.php
