@@ -5,6 +5,8 @@
   Abstraction: use computer program instead of knowning the concept of how does computer works
  
   ### Green screen
+  if pixel is green, then set output to background pixel
+  otherwise set output to foreground
      
 ## lesson_2
   Methods: invoked on objects
@@ -30,4 +32,17 @@
     }
 
 
+### code
+  for (var pixel of fgImage.values()){
+    if (pixel.getGreen() > pixel.getRed() + pixel.getBlue()){
+      var x = pixel.getX();
+      var y = pixel.getY();
+      var bgPixel = bgImage.getpixel(x, y);
+      output.setPixel(x, y, bgPixel);
+    }
+    else {
+      output.setPixel(pixel.getX(), pixel.getY(), pixel);
+    }
+  }
+  
   
