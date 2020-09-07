@@ -11,6 +11,6 @@ ctx.fillReact(60,10,40,40);
 // add text in black
 ctx.fillStyle = "black";
 ctx.font = "50px Arial";
-ctx.fillText("Hello", 10, 80);
+ctx.fillText("Hello",10,80);
 
 
