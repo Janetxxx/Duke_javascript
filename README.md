@@ -45,7 +45,10 @@
       }
     }
     
- for White pixel: R = 255, G = 255, B = 255.
+ for White pixel: R = 255, G = 255, B = 255.  
  image is all red (each pixel has red value 255, green value 0 and blue value 0).
   
+  
+## lesson_4
+  ### Interactivity 
   
