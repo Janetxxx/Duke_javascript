@@ -51,4 +51,23 @@
   
 ## lesson_4
   ### Interactivity 
+    Green screen redux
+    website to upload foreground and background: https://codepen.io/astrachan/pen/gwbGQv
   
+  ### Buttons with Divs
+    HTML and CSS with <div> and ID
+    Button, connect to functionality
+    JavaScript, controlled by button
+    
+    Create an HTML Button
+    e.g. 
+    <input type = "button" value = "change" onclick = "alert('clicked button')" >
+    
+    or
+    
+    <input type = "button" value = "change" onclick = "dochange()" >
+    function dochange(){
+      alert('clicked button');
+    }
+    
+    onclick attribute: triggers event handler on click, will pop up an alert message 'clicked button'.
