@@ -6,4 +6,7 @@
  
   ### Green screen
      
-    
+## lesson_2
+  Methods: invoked on objects
+  Functions: not invoked on objects
+  
