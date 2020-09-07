@@ -1,5 +1,7 @@
 # Duke_javascript
 
+upper left conor is (0, 0)
+
 ## lesson_1
   Computers are all based on math, so computer only represents as numbers, not letters
   Abstraction: use computer program instead of knowning the concept of how does computer works
