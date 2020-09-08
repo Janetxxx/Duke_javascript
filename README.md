@@ -102,3 +102,6 @@ upper left conor is (0, 0)
       var color = colorinput.value;
       dd1.style.backgroundColor = color;
     }
+    
+  ### HTML color picker website
+    https://www.w3schools.com/colors/colors_picker.asp
