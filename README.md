@@ -88,3 +88,17 @@ upper left conor is (0, 0)
 ## lesson_6
   ### Using HTML5 Canvas to draw graphics
   website source: https://www.w3schools.com/html/html5_canvas.asp
+
+## lesson_7
+  ### Inputs and Events
+    //change background color by using color picker
+    Color Picker
+
+    <input type="color" value="#001A57" id="clr" onchange="docolor()">
+
+    function docolor(){
+      var dd1 = document.getElementById("d1"); //canvas element stored in var dd1. 
+      var colorinput = document.getElementById("clr"); //color picker element stored in var colorinput   
+      var color = colorinput.value;
+      dd1.style.backgroundColor = color;
+    }
